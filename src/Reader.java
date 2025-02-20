@@ -1,5 +1,4 @@
 public class Reader {
-
     private String fio;
     private int numberTicket;
     private String faculty;
@@ -50,8 +49,6 @@ public class Reader {
             readers[i].takeBook("Математика будущего", "Математическая смекалка");
             readers[i].returnBook(2);
             readers[i].returnBook("Психология отношений", "Искусство самопознания");
-            readers[i].takeBook("Тайны растительного мира", "Наука");
-            readers[i].returnBook(3);
         }
     }
 }
